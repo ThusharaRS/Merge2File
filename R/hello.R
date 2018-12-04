@@ -17,5 +17,6 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 hello <- function() {
-  print(list.files)
+  print(getwd())
+  print(list.files(getwd()))
 }
