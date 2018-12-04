@@ -18,6 +18,5 @@
 
 hello <- function() {
   print(getwd())
-  print("------")
-  print(list.files(getwd()))
+ # print(list.files(getwd()))
 }
